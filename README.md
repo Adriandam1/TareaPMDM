@@ -25,3 +25,35 @@ Permite modularizar la UI, haciendo las aplicaciones más flexibles y escalables
     La plantilla crea una estructura básica con una sola actividad (MainActivity) y un archivo de diseño XML (activity_main.xml).
   
 ![estructura](https://github.com/user-attachments/assets/0367445d-1ea6-4011-9975-e2ad1863f259)
+
+## 3. Creación y uso de Fragmentos
+
+* Paso 1: Crear un Fragmento
+
+    - Añadir un nuevo Fragmento:
+
+        -> Haz clic derecho en el directorio java → Nuevo → Fragmento → Fragment (Blank).    
+  
+![newfragment](https://github.com/user-attachments/assets/611ffeff-9b9a-46b8-a56c-fc142496979e)
+
+
+Configura el Fragmento:
+El fragmento creado tendrá un archivo de diseño XML (por ejemplo, fragment_first.xml) donde puedes definir su interfaz.
+Paso 2: Agregar Fragmento a la Actividad
+Modifica el archivo XML de la actividad principal:
+Añadir un FrameLayout donde se insertará el fragmento dinámicamente:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
